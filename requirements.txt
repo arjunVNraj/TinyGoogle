@@ -2,3 +2,4 @@ Flask==0.11.1
 gunicorn==19.6.0
 requests==2.12.1
 flask-bootstrap==3.3.7.0
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
